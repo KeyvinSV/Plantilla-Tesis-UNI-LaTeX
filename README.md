@@ -1,4 +1,5 @@
 @@ -1,3 +1,7 @@
+
 #Consejos Previos
 
 Los archivos principales son:
