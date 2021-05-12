@@ -17,4 +17,4 @@ Con ello se obtiene **TESIS_UNI_main.pdf**
 - Gestionar la bibliografía con [Mendeley](https://www.mendeley.com/download-desktop-new/), que trabaja muy bien con LaTeX.
 - Usar Illustrator y/o Autocad para generar imagenes vectoriales.
 - Con el fin de facilitar la redacción, se pueden crear las Tablas en Excel y luego usar [Table Generator](https://www.tablesgenerator.com/) para convertirlo en formato LaTeX.
-- Usar [Online LaTeX Equation Editor](https://latex.codecogs.com/eqneditor/editor.php) escribir de manera rápida y eficiente las formulas matemáticas.
+- Usar [Online LaTeX Equation Editor](https://latex.codecogs.com/eqneditor/editor.php) para escribir las formulas matemáticas de una manera rápida y eficiente .
