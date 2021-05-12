@@ -1,4 +1,4 @@
-#### Sobre la Plantilla
+#### SOBRE LA PLANTILLA
 
 Los archivos principales son:
 - TESIS_UNI_main.tex, archivo a ejecutar
@@ -13,4 +13,6 @@ pdflatex TESIS_UNI_main.tex
 Con ello se obtiene **TESIS_UNI_main.pdf**
 
 
-#### Recomendaciones para redactar en \LaTeX 
+#### RECOMENDACIONES GENERALES PARA USAR LaTeX
+- Realizar gráficos vectoriales usando [Python](https://www.python.org/), recomiendo usar el repositorio [SciencePlots](https://github.com/garrettj403/SciencePlots)
+- Usar
