@@ -1,6 +1,6 @@
 @@ -1,3 +1,7 @@
 
-#Consejos Previos
+  #Consejos Previos
 
 Los archivos principales son:
 - TESIS_UNI_main.tex, archivo a ejecutar
