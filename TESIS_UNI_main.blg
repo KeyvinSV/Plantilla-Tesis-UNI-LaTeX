@@ -1,0 +1,90 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: TESIS_UNI_main.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 1_0_CARATULA/Caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 1_1_PERMISOS/Permisos.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: 1_2_DEDICATORIA/Dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: 1_3_AGRADECIMIENTOS/Agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: 1_4_RESUMEN/Resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 1_5_ABSTRACT/Abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: 1_6_PROLOGO/Prologo.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 1_7_SIMBOLOS/Simbolos.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 2_CAPITULO1/Capitulo1.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 2_CAPITULO2/Capitulo2.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 2_CAPITULO3/Capitulo3.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 2_CAPITULO4/Capitulo4.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: 3_1_CONCLUSIONES/Conclusiones.aux
+Reallocating 'name_of_file' (item size: 1) to 40 items.
+A level-1 auxiliary file: 3_2_RECOMENDACIONES/Recomendaciones.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: 3_3_BIBLIOGRAFIA/Bibliografia.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: 3_4_ANEXOS/Anexos.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: 3_3_BIBLIOGRAFIA/library.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 9 entries,
+            6951 wiz_defined-function locations,
+            1341 strings with 12470 characters,
+and the built_in function-call counts, 16333 in all, are:
+= -- 2067
+> -- 129
+< -- 733
++ -- 778
+- -- 20
+* -- 979
+:= -- 2959
+add.period$ -- 38
+call.type$ -- 9
+change.case$ -- 153
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 415
+empty$ -- 670
+format.name$ -- 210
+if$ -- 3167
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 0
+newline$ -- 224
+num.names$ -- 72
+pop$ -- 376
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 1028
+stack$ -- 0
+substring$ -- 850
+swap$ -- 227
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 784
+warning$ -- 0
+while$ -- 70
+width$ -- 0
+write$ -- 271

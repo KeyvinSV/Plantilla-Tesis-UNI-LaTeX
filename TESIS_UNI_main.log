@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.4.3)  11 MAY 2021 18:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.3) (preloaded format=xelatex 2021.4.3)  11 MAY 2021 19:14
 entering extended mode
-**"./Tesis_Keyvin Saldaña.tex"
-(Tesis_Keyvin Saldaña.tex
+**./TESIS_UNI_main.tex
+(TESIS_UNI_main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (TesisUNI.cls
 
@@ -1115,7 +1115,7 @@ cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-) (Tesis_Keyvin Saldaña.aux (1_0_CARATULA/Caratula.aux)
+) (TESIS_UNI_main.aux (1_0_CARATULA/Caratula.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
@@ -1127,7 +1127,7 @@ LaTeX Info: Redefining \% on input line 27.
 (2_CAPITULO4/Capitulo4.aux) (3_1_CONCLUSIONES/Conclusiones.aux)
 (3_2_RECOMENDACIONES/Recomendaciones.aux) (3_3_BIBLIOGRAFIA/Bibliografia.aux)
 (3_4_ANEXOS/Anexos.aux))
-\openout1 = `"Tesis_Keyvin Saldaña.aux"'.
+\openout1 = `TESIS_UNI_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -1216,9 +1216,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
- (Tesis_Keyvin Saldaña.out) (Tesis_Keyvin Saldaña.out)
+ (TESIS_UNI_main.out) (TESIS_UNI_main.out)
 \@outlinefile=\write4
-\openout4 = `"Tesis_Keyvin Saldaña.out"'.
+\openout4 = `TESIS_UNI_main.out'.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
 (Font)                  OT1/ztmcm/m/n --> TU/Arial(0)/m/n on input line 6.
@@ -1471,7 +1471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 
 
-]) (Tesis_Keyvin Saldaña.toc
+]) (TESIS_UNI_main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
@@ -1521,7 +1521,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ])
 \tf@toc=\write5
-\openout5 = `"Tesis_Keyvin Saldaña.toc"'.
+\openout5 = `TESIS_UNI_main.toc'.
 
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
@@ -1648,12 +1648,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\z@skip' on input line 44.
 
-(Tesis_Keyvin Saldaña.lot
+(TESIS_UNI_main.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write6
-\openout6 = `"Tesis_Keyvin Saldaña.lot"'.
+\openout6 = `TESIS_UNI_main.lot'.
 
 LaTeX Info: Redefining \. on input line 47.
 LaTeX Info: Redefining \% on input line 47.
@@ -1723,12 +1723,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\z@skip' on input line 47.
 
-(Tesis_Keyvin Saldaña.lof
+(TESIS_UNI_main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write7
-\openout7 = `"Tesis_Keyvin Saldaña.lof"'.
+\openout7 = `TESIS_UNI_main.lof'.
 
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
@@ -2232,7 +2232,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `3_3_BIBLIOGRAFIA/Bibliografia.aux'.
 
- (3_3_BIBLIOGRAFIA/Bibliografia.tex (Tesis_Keyvin Saldaña.bbl))
+ (3_3_BIBLIOGRAFIA/Bibliografia.tex (TESIS_UNI_main.bbl))
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
 
@@ -2334,13 +2334,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.83238pt}.
 
-[19] (Tesis_Keyvin Saldaña.aux (1_0_CARATULA/Caratula.aux)
+[19] (TESIS_UNI_main.aux (1_0_CARATULA/Caratula.aux)
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
-
-(1_1_PERMISOS/Permisos.aux) (1_2_DEDICATORIA/Dedicatoria.aux)
-(1_3_AGRADECIMIENTOS/Agradecimientos.aux) (1_4_RESUMEN/Resumen.aux)
-(1_5_ABSTRACT/Abstract.aux) (1_6_PROLOGO/Prologo.aux)
+ (1_1_PERMISOS/Permisos.aux) (1_2_DEDICATORIA/Dedicatoria.aux) (1_3_AGRADECIMIE
+NTOS/Agradecimientos.aux)
+(1_4_RESUMEN/Resumen.aux) (1_5_ABSTRACT/Abstract.aux) (1_6_PROLOGO/Prologo.aux)
 (1_7_SIMBOLOS/Simbolos.aux) (2_CAPITULO1/Capitulo1.aux)
 (2_CAPITULO2/Capitulo2.aux) (2_CAPITULO3/Capitulo3.aux)
 (2_CAPITULO4/Capitulo4.aux) (3_1_CONCLUSIONES/Conclusiones.aux)
@@ -2349,17 +2348,16 @@ LaTeX Info: Redefining \% on input line 27.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `"Tesis_Keyvin Saldaña".out' has not changed.
-
-(rerunfilecheck)             Checksum: <no file>.
+Package rerunfilecheck Info: File `TESIS_UNI_main.out' has not changed.
+(rerunfilecheck)             Checksum: 189793F50950AC894FE4D121AE034239;8295.
  ) 
 Here is how much of TeX's memory you used:
  33434 strings out of 411722
- 627074 string characters out of 2835696
- 1592405 words of memory out of 3000000
+ 626906 string characters out of 2835696
+ 1592428 words of memory out of 3000000
  52661 multiletter control sequences out of 15000+600000
  429247 words of font info for 141 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,15n,116p,882b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,15n,116p,874b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Tesis_Keyvin Saldaña.pdf (32 pages).
+Output written on TESIS_UNI_main.pdf (32 pages).
