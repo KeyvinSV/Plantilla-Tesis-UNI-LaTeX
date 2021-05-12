@@ -1,4 +1,4 @@
 Los archivos principales son:
-- tesis.cls, escrita por [José Luis Rivera Gutiérrez](https://people.epfl.ch/jose.riveragutierrez?lang=en)
+- TesisUNI.cls, escrita por [Keyvin Saldaña](https://github.com/KeyvinSV), usando como base Book.cls (que viene en LaTeX por defecto)
 - referencias.bib, bibliografía de la tesis.
 - main.tex, archivo a ejecutar
