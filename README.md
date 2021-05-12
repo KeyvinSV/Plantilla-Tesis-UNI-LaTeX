@@ -1,3 +1,5 @@
+#Consejos Previos
+
 Los archivos principales son:
 - TESIS_UNI_main.tex, archivo a ejecutar
 - TesisUNI.cls, escrita por [Keyvin Saldaña](https://github.com/KeyvinSV), usando como base Book.cls (que viene en LaTeX por defecto)
