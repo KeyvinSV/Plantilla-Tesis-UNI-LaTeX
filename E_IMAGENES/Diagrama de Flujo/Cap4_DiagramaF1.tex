@@ -1,0 +1,70 @@
+\begin{tikzpicture}[node distance=1.15cm]
+
+\node (start) [startstop] {INICIO};
+\node (in1) [io, below of=start,yshift=2.5mm] {Definir \\[-0.5mm] $n, \hspace{2mm} T, \hspace{2mm} \beta$};
+\node (in2) [io, below of=in1,yshift=0.75mm] {Definir \\[-0.5mm] $C_{i}, \hspace{2mm} \alpha_{i}$};
+\node (in3) [io, below of=in2,,yshift=0.75mm] {Definir \\[-0.5mm]
+$\mathbfit{\ddot{u}_{g}};\hspace{2mm} N=len(\mathbfit{\ddot{u}_{g}})$};
+
+\node (pro1) [process, below of=in3, yshift=-0.18cm] {Condiciones Iniciales \\[-7mm] 
+\begin{gather*}
+\mathbfit{u_{0}}=\mathbfit{\dot{u}_{0}}=\mathbfit{\ddot{u}_{0}}=\mathbf{0} \\[0 mm]
+\mathbfit{F_{0}}=\mathbf{0}
+\end{gather*}
+};
+
+\node (pro2) [process, below of=pro1, yshift=-0.22cm] {Asignar \\[-7mm] 
+\begin{equation*}
+\mathbfit{u_{-1}}=\mathbfit{u_{0}}-\Delta t .\mathbfit{\dot{u}_{0}} + a_{3}.\mathbfit{\ddot{u}_{0}}
+\end{equation*}
+};
+
+\node (pro3) [process, below of=pro2, yshift=0.02cm] {Matriz de masa efectiva \\[-7mm] 
+\begin{equation*}
+\mathbfit{\hat{M}}=a_{0}\mathbfit{M}+a_{1}\mathbfit{C}
+\end{equation*}
+};
+
+\node (dec1) [loop, below of=pro3, yshift=-0.05cm,aspect=3] {$i\leq N$};
+\coordinate [left of=dec1,xshift=-4.3cm] (P4) {};
+
+\node (pro4) [process, below of=dec1, text width=10cm, yshift=-0.15cm] {Calcular \\[-6.5mm] 
+\begin{equation*}
+\mathbfit{u_{i+1}}=\left[ \mathbfit{\hat{M}}\right]^{-1}\left [ -\mathbfit{M\tau}\ddot{u}_{g \hspace{1mm}i}-\mathbfit{F_{i}}-\left (\mathbfit{K}-a_{2}\mathbfit{M} \right)\mathbfit{u_{i}}-\left (a_{0}\mathbfit{M}-a_{1}\mathbfit{C} \right)\mathbfit{u_{i-1}} \right]
+\end{equation*}
+};
+
+\node (pro6) [process, below of=pro4, yshift=-0.40cm] {Calcular \\[-6.5mm] 
+\begin{align*}
+\mathbfit{\ddot{u}_{i}}&\approx a_{0}(\mathbfit{u_{i-1}}-2\mathbfit{u_{i}}+\mathbfit{u_{i+1}}) \\[0 mm]
+\mathbfit{\dot{u}_{i}}&\approx a_{1}(\mathbfit{u_{i+1}}-\mathbfit{u_{i-1}})
+\end{align*}
+};
+
+\node (pro5) [process, right of=pro6, xshift=4.3cm,text width=3.8cm] {Determinar y almacenar los valores de interés};
+
+\node (pro7) [process, below of=pro6 ,yshift=-0.3cm] {Actualizar \\[-7mm]
+\begin{equation*}
+\mathbfit{F_{i}}
+\end{equation*}};
+
+\node (End) [startstop, below of=pro5,yshift=0.2cm] {FIN};
+
+
+\draw [arrow] (start) -- (in1);
+\draw [arrow] (in1) -- (in2);
+\draw [arrow] (in2) -- (in3);
+\draw [arrow] (in3) -- (pro1);
+\draw [arrow] (pro1) -- (pro2);
+\draw [arrow] (pro2) -- (pro3);
+\draw [arrow] (pro3) -- node[anchor=west]{$i=1$} (dec1);
+\draw [arrow] (dec1) -- node[anchor=west]{si} (pro4);
+\draw [arrow] (dec1) -| node[anchor=south]{no} (pro5);
+\draw [arrow] (pro5) -- (End);
+\draw [arrow] (pro4) -- (pro6);
+\draw [arrow] (pro6) -- (pro7);
+\draw [line] (pro7) -| (P4);
+\draw [arrow] (P4) -- node[anchor=south]{$i=i+1$} (dec1);
+
+
+\end{tikzpicture}

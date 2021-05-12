@@ -1,0 +1,50 @@
+\section{PRIMERA SECCIÓN}
+
+En la figura anterior se observa que:
+\begin{subequations}\label{Cap3_Eq1}
+\begin{gather}
+u_{iT}=u_{g}+u_{b}+u_{i} \hspace{5mm} \rightarrow \hspace{5mm} \ddot{u}_{iT}=\ddot{u}_{g}+\ddot{u}_{b}+\ddot{u}_{i}		\label{Cap3_Eq1_1} \\[2 mm]
+u_{bT}=u_{g}+u_{b}\hspace{5mm} \rightarrow \hspace{5mm} \ddot{u}_{bT}=\ddot{u}_{g}+\ddot{u}_{b} \label{Cap3_Eq1_2}
+\end{gather}
+\end{subequations}
+Remplazando y simplificando se puede llegar a una expresión matricial de la forma: 
+\begin{equation}\label{Cap3_Eq3}
+\mathbfit{M_{s}\ddot{u}_{s}}(t)+\mathbfit{M_{s}\tau}\ddot{u}_{b}(t)+\mathbfit{C_{s}\dot{u}_{s}}(t)+\mathbfit{K_{s}u_{s}}(t)=-\mathbfit{M_{s}\tau}\ddot{u}_{g}(t)
+\end{equation}
+Donde $\mathbfit{M_{s}}$ es la matriz de masa de la superestructura y se obtiene de la ecuación \ref{Eq18}, $\mathbfit{C_{s}}$ es la matriz de amortiguamiento y viene dada por la ecuación \ref{Eq21}, $\mathbfit{K_{s}}$ es la matriz de rigidez y $\mathbfit{\tau}=\left[1, 1,\ldots,1\right]^{T}$ es un vector de $n\times 1$.
+
+A continuación se muestra la \ref{Cap3_Eq7}.
+\begin{equation}\label{Cap3_Eq7}
+\mathbfit{\overline{M}\ddot{u}}(t)+\mathbfit{\overline{C}\dot{u}}(t)+\mathbfit{\overline{K}u}(t)+\mathbfit{\overline{R}}(t)=-\mathbfit{v}\ddot{u}_{g}(t)
+\end{equation}
+Donde: 
+\begin{subequations}\label{Cap3_Eq8}
+\begin{gather}
+\mathbfit{\overline{M}}=\begin{bmatrix}
+\mathbfit{M_{s}} & \mathbfit{M_{s} \tau} \\ 
+\mathbfit{\tau}^{T} \mathbfit{M_{s}}  & m_{tot}
+\end{bmatrix};\hspace{3mm} 
+\mathbfit{\overline{C}}=\begin{bmatrix}
+\mathbfit{C_{s}}  & \mathbf{0}\\ 
+\mathbf{0}^{T}      & 0
+\end{bmatrix}; \hspace{3mm} 
+\mathbfit{\overline{K}}=\begin{bmatrix}
+\mathbfit{K_{s}}  & \mathbf{0}\\ 
+\mathbf{0}^{T}      & 0
+\end{bmatrix};		\label{Cap3_Eq8_1} \\[2 mm]
+\mathbfit{\overline{R}}(t)=\begin{bmatrix}
+\mathbf{0}\\ 
+R(t)
+\end{bmatrix};\hspace{6mm} 
+\mathbfit{u}(t)=\begin{bmatrix}
+\mathbfit{u_{s}}(t)\\ 
+u_{b}(t)
+\end{bmatrix};\hspace{3mm} 
+\mathbfit{v}=\begin{bmatrix}
+\mathbfit{M_{s} \tau} \\ 
+m_{tot}
+\end{bmatrix}
+		\label{Cap3_Eq8_2}
+\end{gather}
+\end{subequations}
+

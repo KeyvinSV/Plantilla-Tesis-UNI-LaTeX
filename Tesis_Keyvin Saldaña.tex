@@ -1,0 +1,86 @@
+
+\documentclass[11pt,a4paper,oneside,english,spanish]{TesisUNI}
+
+\input{0_0_PREAMBULO/Preambulo}
+
+\begin{document}
+	
+	\renewcommand{\BOthers}[1]{et al.\hbox{}} %Agregar et al.
+	\onehalfspacing 	% Interlineado 1.5
+	\noindent			% Sin sangría
+		
+	%Parte INCIAL DE LA TESIS
+	
+	\frontmatter 
+		
+	\include{1_0_CARATULA/Caratula}
+	
+	\include{1_1_PERMISOS/Permisos}
+
+	\include{1_2_DEDICATORIA/Dedicatoria}
+	
+	\include{1_3_AGRADECIMIENTOS/Agradecimientos}
+	
+	
+	%Cambiar nombre y crear ÍNDICE
+	\singlespacing 
+	\renewcommand\contentsname{\centering ÍNDICE }
+	\tableofcontents	
+	\onehalfspacing
+	
+
+	\include{1_4_RESUMEN/Resumen}
+		
+	\include{1_5_ABSTRACT/Abstract}
+
+	\include{1_6_PROLOGO/Prologo} 
+	
+	
+	%Cambiar nombre, crear ÍNDICE DE FIGURAS Y TABLAS
+	
+	\renewcommand\listfigurename{\centering LISTA DE FIGURAS}
+	\renewcommand\listtablename{\centering LISTA DE TABLAS}
+
+	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listtablename}
+	{\normalsize\listoftables}
+		
+	\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\listfigurename}
+	{\normalsize\listoffigures}
+	
+	\include{1_7_SIMBOLOS/Simbolos}
+ 
+ 
+	%Parte CENTRAL DE LA TESIS
+	
+	\mainmatter 
+
+	% INTRODUCCIÓN
+	\include{2_CAPITULO1/Capitulo1}
+	
+	% FUNDAMENTO TEÓRICO Y CONCEPTUAL
+	\include{2_CAPITULO2/Capitulo2}	
+		
+	% CAPÍTULO 3
+	\include{2_CAPITULO3/Capitulo3}
+		
+	% CAPÍTULO 4
+	\include{2_CAPITULO4/Capitulo4}
+		
+	
+	%Parte FINAL DE LA TESIS
+	
+	\backmatter
+
+	% CONCLUSIONES
+	\include{3_1_CONCLUSIONES/Conclusiones}
+	
+	% RECOMENDACIONES	
+	\include{3_2_RECOMENDACIONES/Recomendaciones}
+	
+	% REFERENCIAS BIBLIOGRÁFICAS
+	\include{3_3_BIBLIOGRAFIA/Bibliografia}
+	
+	% ANEXOS	
+	\include{3_4_ANEXOS/Anexos}
+	
+\end{document}

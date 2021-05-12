@@ -1,0 +1,241 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Berquist%
+, DePasquale%
+, Frye%
+, Gilani%
+\BCBL {}\ \BBA {} Klembczyk%
+}{%
+Berquist%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Taylor2019}
+\APACinsertmetastar {%
+Taylor2019}%
+\begin{APACrefauthors}%
+Berquist, M.%
+, DePasquale, R.%
+, Frye, S.%
+, Gilani, A.%
+\BCBL {}\ \BBA {} Klembczyk, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\newblock
+\APACrefbtitle {{Fluid viscous dampers-general guidelines for engineers
+  including a brief history}} {{Fluid viscous dampers-general guidelines for
+  engineers including a brief history}}.
+\newblock
+\APACaddressPublisher{}{Taylor Devices Inc}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bridgestone%
+}{%
+Bridgestone%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Bridgestone2015}
+\APACinsertmetastar {%
+Bridgestone2015}%
+\begin{APACrefauthors}%
+Bridgestone.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {{Seismic isolation product line-up}} {{Seismic isolation
+  product line-up}}\ (\BVOL~1).
+\newblock
+\APACaddressPublisher{Tokio}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Charalampakis%
+}{%
+Charalampakis%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Charalampakis2010}
+\APACinsertmetastar {%
+Charalampakis2010}%
+\begin{APACrefauthors}%
+Charalampakis, A\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Parameters of Bouc-Wen hysteretic model revisited}}
+  {{Parameters of Bouc-Wen hysteretic model revisited}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the 9h HSTAM International Congress on
+  Mechanics}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chopra%
+}{%
+Chopra%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+Chopra2016}
+\APACinsertmetastar {%
+Chopra2016}%
+\begin{APACrefauthors}%
+Chopra, A\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {{Dynamics of structures: Theory and applications to earthquake
+  engineering}} {{Dynamics of structures: Theory and applications to earthquake
+  engineering}}\ (\PrintOrdinal{5th}\ \BEd).
+\newblock
+\APACaddressPublisher{NJ, USA}{Prentice Hall}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Constantinou%
+\ \BBA {} Symans%
+}{%
+Constantinou%
+\ \BBA {} Symans%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+Constantinou1993}
+\APACinsertmetastar {%
+Constantinou1993}%
+\begin{APACrefauthors}%
+Constantinou, M\BPBI C.%
+\BCBT {}\ \BBA {} Symans, M\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Experimental study of seismic response of buildings
+  with supplemental fluid dampers}} {{Experimental study of seismic response of
+  buildings with supplemental fluid dampers}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Structural Design of Tall
+  Buildings}{2}{2}{93--132}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fenz%
+\ \BBA {} Constantinou%
+}{%
+Fenz%
+\ \BBA {} Constantinou%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+Fenz2008}
+\APACinsertmetastar {%
+Fenz2008}%
+\begin{APACrefauthors}%
+Fenz, D\BPBI M.%
+\BCBT {}\ \BBA {} Constantinou, M\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{Mechanical behavior of multi-spherical sliding bearings}}
+  {{Mechanical behavior of multi-spherical sliding bearings}}.
+\newblock
+\APACaddressPublisher{}{Multidisciplinary Center for Earthquake Engineering
+  Research}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Naeim%
+\ \BBA {} Kelly%
+}{%
+Naeim%
+\ \BBA {} Kelly%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+Kelly1999}
+\APACinsertmetastar {%
+Kelly1999}%
+\begin{APACrefauthors}%
+Naeim, F.%
+\BCBT {}\ \BBA {} Kelly, J\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1999}.
+\newblock
+\APACrefbtitle {{Design of seismic isolated structures: from theory to
+  practice}} {{Design of seismic isolated structures: from theory to
+  practice}}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Skinner%
+, Robinson%
+\BCBL {}\ \BBA {} McVerry%
+}{%
+Skinner%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1993}}%
+}]{%
+Skinner1993}
+\APACinsertmetastar {%
+Skinner1993}%
+\begin{APACrefauthors}%
+Skinner, R\BPBI I.%
+, Robinson, W\BPBI H.%
+\BCBL {}\ \BBA {} McVerry, G\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1993}.
+\newblock
+\APACrefbtitle {{An introduction to seismic isolation}} {{An introduction to
+  seismic isolation}}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wu%
+}{%
+Wu%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Wu2001}
+\APACinsertmetastar {%
+Wu2001}%
+\begin{APACrefauthors}%
+Wu, T\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\unskip\
+\newblock
+\APACrefbtitle {{Design of base isolation system for buildings}} {{Design of
+  base isolation system for buildings}}\ \APACtypeAddressSchool {Master
+  thesis}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {Cambridge}{Massachusetts Institute of Technology}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -1,0 +1,18 @@
+\section{SEGUNDA SECCIÓN}
+	
+	\subsection{Formulación Incremental del Método Beta de Newmark}
+
+Las aproximaciones de diferencias finitas para el método Beta de Newmark se muestran a continuación:
+\begin{subequations}\label{Cap3_Eq15}
+  \begin{align}
+\mathbfit{d_{i+1}}&\approx \mathbfit{d_{i}}+(\Delta t) \mathbfit{\dot{d}_{i}}+(\Delta t)^2\left[\left(\frac{1}{2}-\beta\right)\mathbfit{\ddot{d}_{i}}+\beta\mathbfit{\ddot{d}_{i+1}} \right]		\label{Cap3_Eq15_1} \\[2 mm]
+\mathbfit{\dot{d}_{i+1}}&\approx \mathbfit{\dot{d}_{i}}+\Delta t\left [(1-\gamma)\mathbfit{\ddot{d}_{i}}+\gamma\mathbfit{\ddot{d}_{i+1}}\right] \label{Cap3_Eq15_2}
+  \end{align}
+\end{subequations}
+Si en la ecuación \ref{Cap3_Eq15} se considera $\beta=1/4$ y $\gamma=1/2$ el método Beta de Newmark es implícito e incondicionalmente estable. 
+
+
+
+
+
+

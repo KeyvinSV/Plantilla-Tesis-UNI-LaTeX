@@ -1,0 +1,31 @@
+\subsection*{Funciones}
+%\phantomsubsection
+\addcontentsline{toc}{subsection}{Funciones}
+
+\begin{MyFont}
+\begin{adjustwidth}{4.8mm}{}
+\begin{lstlisting}[language=Python, caption={\footnotesize Funciones-KS}, mathescape=true,label={Algoritmo2}]
+import numpy as np
+from scipy  import linalg as LA
+import copy
+
+# FUNCIÓN EIGEN
+def eigen(Tsf=1,n=5):
+    Z=np.identity(n); ke=(4*n/Tsf)**2; k=np.zeros(n)
+    for i in range(n):
+        if i==0:
+            k[i]=2*ke
+        else:
+            k[i]=ke
+    K=tridiag(k,n); M=np.identity(n)
+    vp,$\varphi$p=LA.eigh(K,M); $\varphi$p=$\varphi$p.T; FP=[]; MP=[] 
+    for i in range(n):
+        FP.append(sum($\varphi$p[i].T@M))
+    for i in range(n):
+        MP.append((sum($\varphi$p[i].T@M))**2)
+    T=2*np.pi/(vp)**0.5; MMP=MP/sum(MP)
+    return T,$\varphi$p,FP,MMP
+
+\end{lstlisting}
+\end{adjustwidth}
+\end{MyFont}

@@ -1,0 +1,212 @@
+\usepackage[utf8]{inputenc}
+\usepackage[natbibapa]{apacite} %Agregar formato de citación APA
+\bibliographystyle{apacite}
+\setlength{\bibsep}{5pt plus 0.3ex} %Espaciamiento en la bibliografía
+\setcounter{secnumdepth}{3} % Numera los subsubsecciones
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel} %% reemplaza "cuadro" por "tabla"
+\decimalpoint  %Cambia coma por punto
+\usepackage{mathptmx}
+\usepackage{layouts} %Saber ancho de hoja.
+\usepackage{fontspec}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage{kpfonts}
+%\setmainfont{Times New Roman}
+\usepackage{changepage} %Agregar identación
+\setmainfont{Arial}
+\usepackage{setspace}
+\usepackage[left=4 cm,right=3 cm,top=3 cm,bottom=3.5 cm]{geometry}
+\usepackage{fancyhdr} %Encabezado y Pie de página (1)
+\pagestyle{fancy} %Encabezado y Pie de página (2)
+\usepackage{lipsum} %Crear texto RAMDOM
+\renewcommand{\labelitemi}{$\bullet$} %Circulos para viñetas
+\usepackage{titlesec} %Titulos de SECCIONES
+\usepackage{tocloft} %Titulos de ÍNDICES
+\usepackage[colorlinks=true,linkcolor=negro,citecolor = negro]{hyperref}
+\usepackage[mathbf=sym]{unicode-math} % Mantener fuentes matemáticas
+%\setmathfont{Cambria Math}
+\makeatletter  %Comando para REDUCIR ERRORES
+\usepackage{multirow} % Agregar TABLAS 
+\usepackage{array} % Dar formato a las TABLAS
+\usepackage{subcaption} % Insertar SubImagenes
+\usepackage{tikz} % Diagrama de Flujo
+\usetikzlibrary{calc,positioning,shapes.geometric,shapes.symbols,shapes.misc}
+
+% Insertar formas para diagramas de flujo
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.5cm,text centered, draw=black]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=0.5cm, text centered, text width=3cm, draw=black]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=0.5cm, text centered, text width=4cm, draw=black]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=0.5cm, text centered, draw=black]
+\tikzstyle{loop} = [chamfered rectangle,chamfered rectangle xsep=2cm,draw=black]
+\tikzstyle{arrow} = [->,>=stealth]
+\tikzstyle{line}=[draw]
+
+\usepackage{listings}
+\usepackage{color}
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.2,0,1}
+\definecolor{codeRojo}{rgb}{0.7,0,0.3}
+\definecolor{backcolour}{rgb}{1.0, 1.0, 1.0}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},  
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{codeRojo},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+\newenvironment{MyFont}{\fontfamily{ugm}\selectfont}{\par}
+
+\usepackage{changepage} %Agregar espacio a Listing
+
+
+
+% Centrado del título del ÍNDICE / LISTA DE FIGURAS / LISTA DE CUADROS
+
+\renewcommand{\cfttoctitlefont}{\hfill \normalfont\normalsize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+\renewcommand{\cftlottitlefont}{\hfill\normalfont\normalsize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+\renewcommand{\cftloftitlefont}{\hfill\normalfont\normalsize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+
+
+% Formato de los CAPÍTULOS, SECCIONES Y SUBSECCIONES
+\titleformat{\chapter}[block]{\normalfont\normalsize\bfseries}{CAPÍTULO \thechapter:}{0.5em}{\normalsize}
+\titlespacing*{\chapter}{0pt}{-10 pt}{5pt}
+
+\titleformat{\section}[block]{\normalfont\normalsize}{\thesection}{0.5em}{\normalsize}
+\titlespacing*{\section}{0pt}{10 pt}{5 pt}
+
+\titleformat{\subsection}[block]{\normalfont\normalsize}{\thesubsection}{0.5em}{\normalsize}
+\titlespacing*{\subsection}{0pt}{10 pt}{5 pt}
+
+\titleformat{\subsubsection}[block]{\normalfont\normalsize}{\thesubsubsection}{0.5em}{\normalsize}
+\titlespacing*{\subsubsection}{0pt}{10 pt}{5 pt}
+
+
+% Espaciado entre PÁRRAFOS y SANGRÍA
+\setlength{\parskip}{5 pt}
+\setlength{\parindent}{0cm}
+
+
+% Dar formato a las TABLAS
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+\newcolumntype{N}{@{}m{0pt}@{}}
+\renewcommand{\arraystretch}{1.25}
+
+% Cambiar titulo de bibliografía
+\addto\captionsspanish{\renewcommand{\bibname}{\centering REFERENCIAS BIBLIOGRÁFICAS}}
+
+
+% Posicionamiento vertical de TOC, LOT and LOF
+
+\setlength{\cftbeforelottitleskip}{1pt} 
+\renewcommand{\cftafterlottitleskip}{12pt}
+
+\setlength{\cftbeforeloftitleskip}{1pt} 
+\renewcommand{\cftafterloftitleskip}{12pt}
+
+\setlength{\cftbeforetoctitleskip}{16pt} 
+\renewcommand{\cftaftertoctitleskip}{12 pt}
+
+
+% Cambiando las etiquetas de las FIGURAS y TABLAS (Caption y autoref)
+\addto\captionsspanish{\renewcommand{\figurename}{\footnotesize FIGURA N°}}
+\addto\extrasspanish{\def\figureautorefname{ Figura N°}}
+ 
+\addto\captionsspanish{\renewcommand{\tablename}{\footnotesize TABLA N°}}
+\addto\extrasspanish{\def\tableautorefname{ Tabla N°}} 
+
+
+% Espaciamiento dentro del índice
+
+\setlength{\cftbeforechapskip}{2mm}
+\renewcommand\cftchapafterpnum{\vskip6pt}
+\renewcommand\cftsecafterpnum{\vskip5pt}
+\renewcommand\cftsubsecafterpnum{\vskip5pt}
+
+
+%Agregar la palabra CAPITULO al TOC, FIGURA a LOF y TABLA al LOT
+
+\renewcommand{\cftchappresnum}{CAPÍTULO }
+\renewcommand{\cftchapaftersnum}{:}
+\renewcommand{\cftchapnumwidth}{7em}
+
+\renewcommand{\cftfigpresnum}{Figura N° }
+%\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cftfignumwidth}{6.85 em}
+
+\renewcommand{\cfttabpresnum}{Tabla N° }
+%\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cfttabnumwidth}{6.5 em}
+
+
+%Definición de COLORES
+
+\usepackage{xcolor}
+\definecolor{granate}{RGB}{113,22,16}
+\definecolor{gris}{RGB}{154,153,157}
+\definecolor{arena}{RGB}{230,217,170}
+\definecolor{azul}{rgb}{0.03, 0.15, 0.4}
+\definecolor{negro}{rgb}{0, 0, 0}
+
+%Cambiando a Números Romanos los Capítulos
+\renewcommand{\thechapter}{\Roman{chapter}}
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}} 
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}  
+\renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}  
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+
+
+
+%Escribir los INFORMACIÓN PERSONAL Y DEL TRABAJO
+
+%Autor para PIE DE PÁGINA (Respetar mayusculas y minisculas)
+\author{Nombre1 Nombre2 Apellido1 Apellido2}
+
+%Autor para CARÁTULA (Siempre en mayuscula y sin saltos de linea)
+\authorcaratula{NOMBRE1 NOMBRE2 APELLIDO1 APELLIDO2}
+
+%Título en para el PIE DE PÁGINA (Agregar salto de línea de ser necesario)
+\title{Xxxxxxxxxxx Título de la Tesis Xxxxxxxxxxx}
+
+%Título para CARÁTULA (Siempre en mayuscula y sin saltos de linea)
+\titlecaratula{XXXXXXXXXXXX TÍTULO DE LA TESIS XXXXXXXXXXXXXX}
+
+%Nombre de la FACULTAD (Siempre en mayuscula)
+\facultad{FACULTAD DE INGENIERÍA CIVIL}
+
+%Para obtener el título profesional de ... (Siempre en mayuscula)
+\grado{INGENIERO CIVIL}
+
+%Asesor para CARÁTULA (Siempre en mayuscula y sin saltos de linea)
+\asesor{DR. NOMBRE DEL ASESOR}
+
+%AÑO para CARÁTULA
+\yyearr{2021}
+

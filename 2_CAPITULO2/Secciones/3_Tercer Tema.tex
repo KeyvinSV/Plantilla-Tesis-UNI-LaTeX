@@ -1,0 +1,35 @@
+\section{TERCER TEMA}
+ 
+	\subsection{Modelo de Masas Concentradas}
+	
+Es un modelo físico discreto conformado por una serie de masas interconectadas por resortes sin peso (sistema de acoplamiento cercano). Este modelo puede describir adecuadamente el comportamiento de edificaciones con un sistemas estructural basado en pórticos con vigas muy rígidas y donde las deformaciones axiales de las columnas se desprecian.
+
+		\subsubsection{Matrices de Masa y Rigidez}
+
+Para un modelo discreto de masas concentradas de $n$ GDL, la matriz de masas $\mathbfit{M}$ es diagonal, con la masa $i_{\acute{e}sima}$, $m_{i}$, como el elemento diagonal $i_{\acute{e}simo}$.
+
+\begin{equation}\label{Eq18}
+M=\begin{bmatrix}
+m_{1} & 0 & 0 & \cdots & 0 & 0 \\ 
+0 & m_{2} & 0 & \cdots & 0 & 0\\ 
+0 & 0 & m_{3} & \cdots & 0 & 0\\ 
+\vdots & \vdots & \vdots &\ddots  &\vdots  &\vdots \\ 
+0 & 0 & 0 & \cdots & m_{n-1}& 0\\ 
+0 & 0 & 0 & \cdots & 0 & m_{n}
+\end{bmatrix}_{n\times n}
+\end{equation}
+
+
+
+		\subsubsection{Matriz de Amortiguamiento}
+
+Usando el amortiguamiento de Rayleigh se puede construir una matriz de amortiguamiento que sea consisten con los datos experimentales \citep{Chopra2016}. Tal como se aprecia en la ecuación \ref{Eq21}, Rayleigh propone que la matriz de amortiguamiento sea una combinación lineal de la matriz de masa y la matriz de rigidez.
+\begin{equation}\label{Eq21}
+\mathbfit{C}=a_{0}\mathbfit{M}+a_{1}\mathbfit{K}
+\end{equation}
+
+
+
+
+
+

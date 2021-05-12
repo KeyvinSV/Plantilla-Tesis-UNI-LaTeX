@@ -1,0 +1,34 @@
+\subsection*{Respuesta Sísmica de una Edificación con AS}
+%\phantomsubsection
+\addcontentsline{toc}{subsection}{Respuesta Sísmica de una Edificación con AS}
+
+\begin{MyFont}
+\begin{adjustwidth}{4.8mm}{}
+\begin{lstlisting}[language=Python, caption= {\footnotesize Edificación con aislamiento sísmico bilineal}, mathescape=true,label={Algoritmo1}]
+# REPUESTA SÍSMICA DE UNA EDIFICACIÓN DE n NIVELES CON AS
+import Funciones_KS as fun
+import numpy as np
+from scipy  import linalg as LA
+import copy
+
+# PROPIEDADES DINÁMICAS
+# Parámetros dinámicos de la Superestructura
+n=3                 # N° de Pisos
+gdl=n+1             # GDL = N° de Pisos+1
+Tnf=0.3             # Periodo base fija, [s]
+$\xi$=5           			 # Amortiguamiento, [%]
+$\lambda$=(gdl-1)/gdl 			 # Relación de masas
+
+# Parámetros dinámicos de la interfaz de aislamiento
+r=0.1               # Razón de rigideces Kp/Ke
+Q=105          		  # Fuerza característica normalizada, [cm/s^2]
+K2=30         		  # Rigidez postfluencia normalizada, [1/s^2]
+
+# LECTURA DEL REGISTRO SÍSMICO
+ug=np.genfromtxt("./Sismo_Lima66NS.txt")  #[cm/s^2]
+$\Delta$t=0.002; N=len(ug)
+t=[i*$\Delta$t for i in range(N)]
+
+\end{lstlisting}
+\end{adjustwidth}
+\end{MyFont}

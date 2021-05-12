@@ -1,0 +1,23 @@
+\cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\bf ANEXOS}
+\chapter*{\centerline {ANEXOS}}
+\markboth{ANEXOS}{}
+%---
+
+% Definir númeración y citación para Listing 
+
+\renewcommand{\lstlistingname}{ \footnotesize Código A \hspace{-1.75mm}}% Cambiar el nombre a Algoritmo
+\renewcommand*{\thelstlisting}{.\arabic{lstlisting}} 
+\def\lstlistingautorefname{Código A\hspace{-0.75mm}}
+
+% Redefinir númeración y citación para Figuras
+\renewcommand\thefigure{.\arabic{figure}}  
+\setcounter{figure}{0} 
+\renewcommand\figurename{\footnotesize FIGURA B \hspace{-1.6mm}}
+\def\figureautorefname{Figura B \hspace{-2mm}}
+
+
+	\input{3_4_ANEXOS/Secciones/1_Anexo1.tex}
+	\newpage
+
+	\input{3_4_ANEXOS/Secciones/2_Anexo2.tex}
+
