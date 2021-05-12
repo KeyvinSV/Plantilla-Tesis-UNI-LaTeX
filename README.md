@@ -1,6 +1,4 @@
-@@ -1,3 +1,7 @@
-
-  #Consejos Previos
+### H5
 
 Los archivos principales son:
 - TESIS_UNI_main.tex, archivo a ejecutar
