@@ -14,6 +14,7 @@ Con ello se obtiene **TESIS_UNI_main.pdf**
 
 #### RECOMENDACIONES GENERALES PARA USAR LaTeX
 - Usar [Python](https://www.python.org/) para obtener gráficos vectoriales, recomiendo emplear el repositorio [SciencePlots](https://github.com/garrettj403/SciencePlots).
+- Otra alternativa es [SciDAVis](https://scidavis.sourceforge.net/) que también permite crear gráficos vectoriales avanzandos.
 - Gestionar la bibliografía con [Mendeley](https://www.mendeley.com/download-desktop-new/), que trabaja muy bien con LaTeX.
 - Usar Illustrator y/o Autocad para generar imagenes vectoriales.
 - Con el fin de facilitar la redacción, se pueden crear las Tablas en Excel y luego usar [Table Generator](https://www.tablesgenerator.com/) para convertirlas en formato LaTeX.
